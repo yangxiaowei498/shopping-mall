@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc4c05ac-0dfb-42a4-9694-c9fcea45329f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-api/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-api/src/main/java/com/ethen/dubbo/DemoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-api/src/main/webapp/WEB-INF/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-api/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer/src/main/java/com/ethendubbo/Consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer/src/main/resources/consumer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer/src/main/resources/log4j.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer2/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer2/src/main/java/com/ethen/dubbo/Consumer2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer2/src/main/resources/consumer2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-consumer2/src/main/resources/log4j.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-provider/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-provider/src/main/java/com/ethen/dubbo/DemoServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-provider/src/main/java/com/ethen/dubbo/Provider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-provider/src/main/resources/log4j.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/dubbo-provider/src/main/resources/provider.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubbo-ethen/src/main/java/com/ethen/demo/FileDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ethen-shop/shop-common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ethen-shop/shop-common/src/main/java/com/ethen/util/ZipCompress.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/common/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/common/WeekDay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopping-mall-dao/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopping-mall-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopping-mall-web/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../wechat-shop/businessplan.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../wechat-shop/calendar.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../wechat-shop/cf-poi.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../wechat-shop/db-poi.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../wechat-shop/loan-calculator.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../wechat-shop/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../wechat-shop/timesheet.xlsx" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/.gitignore" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/logs/spring-boot-logging.log" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/logs/spring-boot-logging.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/mvnw" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/mvnw.cmd" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/AppWebConfig.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/AppWebConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/DataAccessConfig.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/DataAccessConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/DatasourceProps.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/DatasourceProps.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/RedisConfig.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/RedisConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/WechatShopApplication.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/WechatShopApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/account/package-info.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/account/package-info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cart/CartDispatchController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cart/CartDispatchController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cart/package-info.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cart/package-info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/common/CmsConstant.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/common/CmsConstant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/controller/CmsController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/controller/CmsController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/controller/ManageController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/controller/ManageController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/controller/UserController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/controller/UserController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/CmsService.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/CmsService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/UserService.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/UserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/impl/CmsServiceImpl.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/impl/CmsServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/service/impl/UserServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/CmsUser.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/CmsUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/Comment.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/Comment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/News.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/News.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/Product.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/Product.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/ProductClass.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/cms/vo/ProductClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/CacheUtil.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/CacheUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/ComConstant.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/ComConstant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/PageInfo.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/PageInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/ResponseEnum.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/ResponseEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/ResponseVo.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/ResponseVo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/TextUtil.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/TextUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/service/RedisService.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/service/RedisService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/common/service/impl/RedisServiceImpl.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/common/service/impl/RedisServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/filter/XSSFIlter.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/filter/XSSFIlter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/package-info.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/package-info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/BusinessPlan.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/BusinessPlan.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/CalendarDemo.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/CalendarDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/CellStyleDetails.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/CellStyleDetails.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/ConditionalFormats.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/ConditionalFormats.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/DrawingBorders.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/DrawingBorders.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/ExcelComparator.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/ExcelComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/LinkedDropDownLists.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/LinkedDropDownLists.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/LoadEmbedded.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/LoadEmbedded.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/LoanCalculator.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/LoanCalculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/SSPerformanceTest.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/SSPerformanceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/TimesheetDemo.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/TimesheetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/ToCSV.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/poi/ToCSV.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/learning/wrapper/XssHttpServletRequestWrapper.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/learning/wrapper/XssHttpServletRequestWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/order/common/OrderState.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/order/common/OrderState.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/order/common/OrderType.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/order/common/OrderType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/order/controller/OrderDispatchController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/order/controller/OrderDispatchController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/order/package-info.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/order/package-info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/order/service/OrderService.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/order/service/OrderService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/order/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/order/service/impl/OrderServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/order/vo/Order.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/order/vo/Order.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/PortalConstant.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/PortalConstant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/AccountCredentials.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/AccountCredentials.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/CustomAuthenticationProvider.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/CustomAuthenticationProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/GrantedAuthorityImpl.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/GrantedAuthorityImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/JwtLoginFilter.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/JwtLoginFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/ResponseUtil.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/ResponseUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/TokenAuthenticationService.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/auth/TokenAuthenticationService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/authnew/JWT.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/authnew/JWT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/AccessController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/AccessController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/LoginConroller.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/LoginConroller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/PortalDispatchController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/PortalDispatchController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/RegisterController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/controller/RegisterController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/interceptor/TokenInterceptor.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/interceptor/TokenInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/package-info.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/package-info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/service/LoginService.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/service/LoginService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/service/impl/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/service/impl/LoginServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/task/AccessTokenTask.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/task/AccessTokenTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/task/TestTask.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/task/TestTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/AccessToken.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/AccessToken.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/AppUser.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/AppUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/LoginVo.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/LoginVo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/Message.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/Message.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/RspMessage.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/portal/vo/RspMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/quartz/BeanHolder.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/quartz/BeanHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/quartz/Test.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/quartz/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/quartz/job/MyJob.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/quartz/job/MyJob.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/quartz/job/MyQuatzJobBean.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/quartz/job/MyQuatzJobBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/quartz/package-info.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/quartz/package-info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/quartz/service/QuartzManager.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/quartz/service/QuartzManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/quartz/web/QuartzController.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/quartz/web/QuartzController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/MessageHandlerUtil.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/MessageHandlerUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/NetWorkHelper.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/NetWorkHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/RedisClient.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/RedisClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/WebSecurityConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPEntity.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPEntry.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPLocation.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPLocation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPSeeker.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/IPSeeker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/SplitAddress.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/java/com/ethen/wechatshop/util/ip/SplitAddress.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/application-quartz.xml" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/application-quartz.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/application.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource.properties" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource/EASY_BUY.sql" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource/EASY_BUY.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource/SEQ_EASY_BUY.sql" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource/SEQ_EASY_BUY.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource/shop.sql" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource/shop.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource/table_data_mysql.sql" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource/table_data_mysql.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource/tables_mysql.sql" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource/tables_mysql.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource/tables_mysql_innodb.sql" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource/tables_mysql_innodb.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/datasource/tables_oracle.sql" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/datasource/tables_oracle.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/doc/jwt-token认证流程.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/doc/jwt-token认证流程.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/doc/quartz.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/doc/quartz.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/doc/基于jwt的token认证.png" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/doc/基于jwt的token认证.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/mapper/cmsMapper.xml" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/mapper/cmsMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/mapper/userMapper.xml" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/mapper/userMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/mybatis-config.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/quartz.properties" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/quartz.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/redis.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bootstrap/js/npm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bstep/css/bs-is-fun.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bstep/css/bs-is-fun.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bstep/css/shCore.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bstep/css/shCore.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bstep/css/shThemeDefault.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bstep/css/shThemeDefault.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/bstep/js/brush.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/bstep/js/brush.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/css/login.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/css/login.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/css/style.css" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/bg.png" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/logo.gif" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/logo.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/0.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/0.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/0_tiny.gif" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/0_tiny.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/10.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/7.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/8.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/9.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/b1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/b1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/b2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/b2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/b3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/b3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/b4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/b4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/b5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/b5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/b6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/b6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/b7.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/b7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/dn5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/dn5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/f1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/f1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/f4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/f4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/f5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/f5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/j3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/j3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/j5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/j5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/ju2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/ju2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/ju4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/ju4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/ju6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/ju6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/m1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/m1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/m4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/m4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/q1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/q1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/q3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/q3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/q5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/q5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/sp3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/sp3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/sp4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/sp4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/sp7.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/sp7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/ts1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/ts1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/ts2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/ts2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/ts3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/ts3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/ts5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/ts5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/xb4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/xb4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/product/yy1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/product/yy1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/dn/dn1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/dn/dn1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/dn/dn2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/dn/dn2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/dn/dn3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/dn/dn3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/dn/dn4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/dn/dn4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/fz/f2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/fz/f2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/fz/f3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/fz/f3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/fz/f6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/fz/f6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/jd/j1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/jd/j1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/jd/j2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/jd/j2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/jd/j4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/jd/j4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/jd/j6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/jd/j6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/jju/ju1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/jju/ju1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/jju/ju3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/jju/ju3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/jju/ju5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/jju/ju5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/my/my1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/my/my1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/my/my2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/my/my2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/my/my3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/my/my3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/my/my4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/my/my4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/my/my5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/my/my5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/mz/m2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/mz/m2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/mz/m3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/mz/m3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/mz/m5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/mz/m5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/qc/q2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/qc/q2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/qc/q4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/qc/q4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/qc/q6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/qc/q6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb7.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sb/sb8.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sb/sb8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sj/sj1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sj/sj1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sj/sj2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sj/sj2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sj/sj3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sj/sj3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sj/sj4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sj/sj4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sj/sj5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sj/sj5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sj/sj6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sj/sj6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sp/sp1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sp/sp1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sp/sp2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sp/sp2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sp/sp5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sp/sp5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/sp/sp6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/sp/sp6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/ts/ts4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/ts/ts4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/wj/w1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/wj/w1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/wj/w2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/wj/w2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/wj/w3.gif" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/wj/w3.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/wj/w4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/wj/w4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/wj/w5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/wj/w5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/xb/xb1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/xb/xb1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/xb/xb2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/xb/xb2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/xb/xb3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/xb/xb3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/xb/xb5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/xb/xb5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/xb/xb6.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/xb/xb6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/xb/xb7.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/xb/xb7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yd/yd1.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yd/yd1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yd/yd2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yd/yd2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yd/yd3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yd/yd3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yd/yd4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yd/yd4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yd/yd5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yd/yd5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yl/yy2.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yl/yy2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yl/yy3.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yl/yy3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yl/yy4.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yl/yy4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/img/tp/yl/yy5.jpg" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/img/tp/yl/yy5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/js/calendar.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/js/calendar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/js/function-manage.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/js/function-manage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/js/function.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/js/function.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/static/js/login.js" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/static/js/login.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/task.properties" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/task.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/chat-room.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/chat-room.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/guestbook.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/guestbook.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/index.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/manage-result.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/manage-result.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/news-add.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/news-add.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/news-modify.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/news-modify.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/news.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/news.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/order-modify.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/order-modify.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/order.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/order.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/product-add.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/product-add.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/product-modify.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/product-modify.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/product.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/product.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/productClass.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/productClass.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/user-add.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/user-add.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/user-modify.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/user-modify.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/cms/user.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/cms/user.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/guestbook.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/guestbook.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/index.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/login.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/module/page_flip.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/module/page_flip.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/news-view.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/news-view.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/product-list.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/product-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/product-view.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/product-view.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/quartz/quartz.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/quartz/quartz.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/reg-result.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/reg-result.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/register.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/register.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/register2.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/register2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/selfOrder.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/selfOrder.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/shopping-result.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/shopping-result.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/shopping.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/shopping.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/main/resources/views/test/test.html" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/main/resources/views/test/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../wechat-shop/src/test/java/com/ethen/wechatshop/WechatShopApplicationTests.java" afterPath="$PROJECT_DIR$/../ethen-shop/wechat-shop/src/test/java/com/ethen/wechatshop/WechatShopApplicationTests.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-mall-service/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-mall-dao/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-mall-web/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-mall-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-mall-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-mall-service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-mall-web/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/soft-work/MAVEN/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="C:\soft-work\MAVEN\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-194" />
+    <option name="y" value="12" />
+    <option name="width" value="1934" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopping-mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-mall" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc4c05ac-0dfb-42a4-9694-c9fcea45329f" name="Default" comment="" />
+      <created>1540051703247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540051703247</updated>
+      <workItem from="1540051705247" duration="943000" />
+      <workItem from="1540087733914" duration="315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1258000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1849" height="1102" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25412166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopping-mall-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-mall-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-mall-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-mall-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
